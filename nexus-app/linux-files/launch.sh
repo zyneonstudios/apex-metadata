@@ -10,7 +10,6 @@ mkdir ~/.local/share/applications
 mkdir ~/.local/share/Zyneon
 mkdir ~/.local/share/Zyneon/NEXUS\ App
 mkdir ~/.local/share/Zyneon/NEXUS\ App/libs
-rm -r ~/.local/share/Zyneon/nexus-app-bootstrapper
 mkdir ~/.local/share/Zyneon/nexus-app-bootstrapper
 cd ~/.local/share/Zyneon/nexus-app-bootstrapper && clear
 
