@@ -21,7 +21,7 @@ echo "================================================================"
 echo "> Installing NEXUS App..."
 echo "================================================================"
 echo "Creating directories (messy but compatible 2/2)..."
-sudo rm -r ~/.local/share/Zyneon/nexus-app-bootstrapper
+rm -r ~/.local/share/Zyneon/nexus-app-bootstrapper
 mkdir ~/.local/share/Zyneon/nexus-app-bootstrapper
 echo "================================================================"
 echo " "
@@ -31,6 +31,7 @@ echo "================================================================"
 echo "> Installing NEXUS App..."
 echo "================================================================"
 echo "Downloading launch script..."
+rm launch.sh
 wget https://zyneonstudios.github.io/apex-metadata/nexus-app/linux-files/launch.sh
 chmod a+x launch.sh
 echo "================================================================"
@@ -42,7 +43,7 @@ echo "> Installing NEXUS App..."
 echo "================================================================"
 echo "Downloading icon..."
 wget https://zyneonstudios.github.io/apex-metadata/nexus-app/linux-files/icon.png
-sudo rm ~/.local/share/icons/hicolor/128x128/apps/nexus-app.png
+rm ~/.local/share/icons/hicolor/128x128/apps/nexus-app.png
 mv icon.png ~/.local/share/icons/hicolor/128x128/apps/nexus-app.png
 echo "================================================================"
 echo " "
@@ -53,7 +54,7 @@ echo "> Installing NEXUS App..."
 echo "================================================================"
 echo "Downloading shortcut file..."
 wget https://zyneonstudios.github.io/apex-metadata/nexus-app/linux-files/nexus-app.desktop
-sudo rm ~/.local/share/applications/nexus-app.desktop
+rm ~/.local/share/applications/nexus-app.desktop
 mv nexus-app.desktop ~/.local/share/applications/nexus-app.desktop
 chmod a+x ~/.local/share/applications/nexus-app.desktop
 echo "================================================================"
