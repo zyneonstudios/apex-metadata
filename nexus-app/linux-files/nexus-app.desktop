@@ -1,0 +1,9 @@
+
+[Desktop Entry]
+Type=Application
+Name=NEXUS App
+GenericName=Zyneon Application
+Comment=An open source Minecraft launcher and modding utility
+Icon=nexus-app
+Exec=~/.local/share/Zyneon/nexus-app-bootstrapper/launch.sh
+Categories=Game
