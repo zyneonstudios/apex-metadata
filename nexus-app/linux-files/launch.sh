@@ -1,5 +1,19 @@
 #!/bin/bash
 
+cd ~ && mkdir ~/.local
+mkdir ~/.local/share
+mkdir ~/.local/share/icons
+mkdir ~/.local/share/icons/hicolor
+mkdir ~/.local/share/icons/hicolor/128x128
+mkdir ~/.local/share/icons/hicolor/128x128/apps
+mkdir ~/.local/share/applications
+mkdir ~/.local/share/Zyneon
+mkdir ~/.local/share/Zyneon/NEXUS\ App
+mkdir ~/.local/share/Zyneon/NEXUS\ App/libs
+rm -r ~/.local/share/Zyneon/nexus-app-bootstrapper
+mkdir ~/.local/share/Zyneon/nexus-app-bootstrapper
+cd ~/.local/share/Zyneon/nexus-app-bootstrapper && clear
+
 install_java() {
     echo "Checking if Java is installed..."
 
