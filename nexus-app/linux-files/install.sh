@@ -58,3 +58,11 @@ mv nexus-app.desktop ~/.local/share/applications/nexus-app.desktop
 chmod a+x ~/.local/share/applications/nexus-app.desktop
 echo "================================================================"
 echo " "
+
+clear
+echo "================================================================"
+echo "> Intalling NEXUS App..."
+echo "================================================================"
+echo "The app is now installed. Have fun!"
+echo "================================================================"
+echo " "
