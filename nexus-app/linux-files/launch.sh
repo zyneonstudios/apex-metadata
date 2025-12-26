@@ -86,7 +86,7 @@ fetchVersion() {
     fi
 
     if ! command -v curl &> /dev/null || ! command -v wget &> /dev/null; then
-        echo "Error: curl and; or wget not found exiting..."
+        echo "Error: curl and; or wget not found..."
         return 1
     else
         lat=$(curl -s https://zyneonstudios.github.io/apex-metadata/nexus-app/linux-updater-version | head -n 1)
