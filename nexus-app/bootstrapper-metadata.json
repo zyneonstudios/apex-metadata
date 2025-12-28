@@ -1,5 +1,5 @@
 {
   "name": "nexus-app",
-  "version": "2026.1-beta.8-pre.6",
-  "downloadUrl": "https://github.com/zyneonstudios/nexus-nex/raw/refs/heads/main/application/executables/nexus-app-2026.1-beta.8-pre.6.jar"
+  "version": "3.0.0-pre.1",
+  "downloadUrl": "https://maven.nrfy.net/snapshots/org/zyneonstudios/apex/nexus-app/3.0.0-pre.1/nexus-app-3.0.0-pre.1.jar"
 }
