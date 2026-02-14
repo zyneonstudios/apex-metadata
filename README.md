@@ -11,3 +11,4 @@ Metadata repository for Zyneon Apex' products
   - [NEXUS App Linux shortcut icon](https://zyneonstudios.github.io/apex-metadata/nexus-app/linux-files/icon.png)
   - [NEXUS App Linux installation script](https://zyneonstudios.github.io/apex-metadata/nexus-app/linux-files/install.sh)
   - [NEXUS App Linux launching script](https://zyneonstudios.github.io/apex-metadata/nexus-app/linux-files/launch.sh)
+  - [NEXUS App Windows Installer/Updater metadata](https://zyneonstudios.github.io/apex-metadata/nexus-app/win-files/win-metadata.json)
